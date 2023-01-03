@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="ourart.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+	<title>Art pieces</title>
+</head>
+<body>
+<h1>Our Collections</h1>
+<p>As you can see there is an amazing contrast between these two artist. There art are is unique and it is easy to distingush. As you can see Kre8 colors explode off the page with this hugely talented young artist creative style from Miami. He is taking the art world by storm, collectors and social media fans around the globe have fallen in love with the bold, abstract splashes of color exploding from his stunning black-and-gray canvases. Michael Cheval is one of the major figures of the modern Absurdist movement, winning internation acclaim for his mind-bending designs. His gorgeous artwork captures his viewer's imagination with its intricate, enigmatic compositions.</p>
+<div class="container">
+	<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="mcowl.jpg"></div>
+    <div class="swiper-slide"><img src="mclove.jpg"></div>
+    <div class="swiper-slide"><img src="mcred.jpg"></div>
+    <div class="swiper-slide"><img src="tv.jpg"></div>
+    <div class="swiper-slide"><img src="face.jpg"></div>
+    <div class="swiper-slide"><img src="mustach.jpg"></div>
+    ...
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  </div>
+
+   </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+	
+const swiper = new Swiper('.swiper', {
+	autoplay: {
+		delay:3000,
+		disableOnInteraction:false,
+	},
+ 
+ loop: true,
+
+pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+      },
+ 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+</body>
+</html>

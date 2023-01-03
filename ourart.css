@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'courgette', cursive;
+	font-size: 3em;
+	border-bottom: 4px solid black;
+	border-right: 2px solid black;
+	width: 400px;
+	text-align: center;
+	color: #a65387;
+	a
+
+}
+
+p {
+	color: #631145 ;
+	text-align: center;
+	border: 5px solid rgb(66, 0, 41);
+	cursor:pointer;
+
+}
+
+p {
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 250%;
+	font-family: 'Poiret One', cursive;
+}
+
+
+
+.container {
+	width: 50%;
+	height: 100vh;
+	/*background: #222;*/
+	align-content: center;
+	justify-content: center;
+}
+
+
+.swiper {
+	width: 80%;
+	height: 80%;
+}
+
+.swiper-slide img {
+	width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+	color: white;
+}
+
+.swiper .swiper-pagination-bullet-active {
+	background: white;
+}
+
+
